@@ -1,0 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'Spate_Example', :exclusive => true do
+  pod "Spate", :path => "../"
+end
+
+target 'Spate_Tests', :exclusive => true do
+  pod "Spate", :path => "../"
+
+  
+end
